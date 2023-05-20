@@ -1,0 +1,31 @@
+.form {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.inputForm {
+  width: 200px;
+  padding: 3px;
+}
+.addButton {
+  width: 100px;
+  height: 20px;
+  margin-top: 15px;
+  border: 1px solid #e5e5e5;
+  background-color: transparent;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addButton:hover {
+  border: 1px solid black;
+  background-color: #e5e5e5;
+}
